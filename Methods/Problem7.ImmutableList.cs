@@ -50,7 +50,8 @@ public class StartUp
         }
         else
         {
-            Console.WriteLine(methods.Length);
+            Console.WriteLine(methods[0].ReturnType.Name);
         }
+
     }
 }
