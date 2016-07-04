@@ -1,0 +1,10 @@
+﻿namespace Problem5.OnlineRadioDatabase.Exceptions
+{
+    public class InvalidArtistNameException : InvalidSongException
+    {
+        private new const string Message = "Artist name should be between 3 and 20 symbols.";
+        public InvalidArtistNameException() : base(Message)
+        {
+        }
+    }
+}
